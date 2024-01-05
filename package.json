@@ -1,0 +1,9 @@
+{
+  "name": "basic-table",
+  "version": "1.0.0",
+  "description": "Renders a very basic table given an array of similar objects",
+  "main": "index.js",
+  "repository": "https://github.com/codyfp/arrayRenderer",
+  "author": "codyfp <fisherpeel.c@gmail.com>",
+  "license": "MIT"
+}
