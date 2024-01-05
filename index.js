@@ -1,14 +1,13 @@
 /**
  * When given javascript object of an array, returns a display of all properties and their values
- *
  * @format
  * @param {Object[]} obj - The object to be displayed
+ * @returns {JSX.Element} - A table of the object's properties and values
  */
-
-export default function displayObject(obj) {
+export default (obj) => {
   // Assumes all objects in array have same properties
   // Get all properties
-  var columnTitles = Object.keys(obj[0]);
+  const columnTitles = Object.keys(obj[0]);
   const Header = () => (
     <thead>
       <tr>
@@ -40,4 +39,4 @@ export default function displayObject(obj) {
       </tbody>
     </div>
   );
-}
+};
